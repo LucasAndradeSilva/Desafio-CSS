@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    h1 {
+       color: #fff; 
+       font-size: max(60px, 4vw);
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-align: center;
+    }
+
+      header, section{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          height: 100vh;
+      }
+
+      section{
+          background: #66c3d0;
+      }
+
+      header{
+          background: #024b61;
+          position: relative;
+      }
+
+      header h1{
+          border:5px solid white;
+          padding: 10px 50px;
+          margin: 50px;
+      }
+
+      .waves{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;          
+      }
+
+      .waves-1{
+          animation: moveWave1 4s ease-in-out infinite alternate;
+      }
+
+      @keyframes moveWave1 {
+          from{
+              transform: translate(1000px);
+          }
+      }
+
+      .waves-2{
+        animation: moveWave2 4s 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes moveWave2 {
+          from{
+              transform: translate(600px);
+          }
+      }
+
+      .waves-3{
+        animation: moveWave3 4s ease-in-out infinite alternate;
+      }
+
+      @keyframes moveWave3 {
+          from{
+              transform: translate(-650px);
+          }
+      }
+  </style>
+
+  <body>
+      <header>
+          <h1>Lucas Andrade Silva</h1>
+          
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path class="waves-1" fill="#43818A" fill-opacity="1" d="M0,320L34.3,266.7C68.6,213,137,107,206,90.7C274.3,75,343,149,411,149.3C480,149,549,75,617,64C685.7,53,754,107,823,117.3C891.4,128,960,96,1029,80C1097.1,64,1166,64,1234,69.3C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            <path class="waves-2" fill="#57A7B3" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,58.7C384,43,480,85,576,90.7C672,96,768,64,864,90.7C960,117,1056,203,1152,218.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            <path class="waves-3" fill="#66C3D0" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,80C480,53,600,43,720,80C840,117,960,203,1080,250.7C1200,299,1320,309,1380,314.7L1440,320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+         </svg>
+      </header>
+      <section>
+        <h1>Section dois</h1>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
